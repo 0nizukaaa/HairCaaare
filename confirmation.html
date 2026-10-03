@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirmation - HairCare</title>
+    <style>
+        body {
+            background: #26241f;
+            color: #b48b5f;
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .confirmation {
+            text-align: center;
+            padding: 40px;
+            background: #1a1815;
+            border-radius: 10px;
+            border: 2px solid #b48b5f;
+            animation: slideIn 0.5s ease-in-out;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.1rem;
+            margin: 10px 0;
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 30px;
+            background: #b48b5f;
+            color: #26241f;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        a:hover {
+            background: #8a6430;
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="confirmation">
+        <h1>✅ Réservation Confirmée !</h1>
+        <p>Merci ! Votre réservation a bien été reçue.</p>
+        <p>Un email de confirmation a été envoyé.</p>
+        <p>Nous vous recontacterons rapidement pour confirmer votre créneau.</p>
+        <a href="index.html">Retour à l'accueil</a>
+    </div>
+</body>
+
+</html>
